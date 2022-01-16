@@ -74,7 +74,7 @@ body {
   letter-spacing: 5px;
 }
 
-.fade {
+.header {
   animation-timing-function: ease-in;
   animation-name: fade;
   animation-duration: 3s;
