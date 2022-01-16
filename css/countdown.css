@@ -67,6 +67,7 @@ body {
   border-radius: 1rem;
   margin-bottom: 2rem;
   width: 17rem;
+  height: 10rem;
 }
 .counter-wrapper .count .sec p {
   font-size: 1.4rem;

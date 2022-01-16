@@ -15,9 +15,9 @@ function timer(date){
 		if(differenceInTime < 0){
 			clearInterval(countdown);
 			return;
-		}	
+		}
 		timeLeft(differenceInTime);
-	}, 1000);
+	}, 10);
 }
 
 function timeLeft(time){
