@@ -74,46 +74,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-
-.social-icons {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  min-height: 20vh;
-  color: var(--white);
+.container .languages {
+  position: absolute;
+  right: 5%;
+  top: 2%;
 }
-.social-icons .icons {
-  display: flex;
-  margin: 0 auto;
-}
-.social-icons .icons .icon {
-  list-style: none;
-  margin: 1rem;
-}
-.social-icons .icons .icon .icon-link {
-  text-decoration: none;
-  color: var(--grayish-blue);
-  transition: color 300ms ease;
-}
-.social-icons .icons .icon .icon-link i {
-  font-size: 2.4rem;
-}
-.social-icons .icons .icon .icon-link:hover {
-  color: var(--soft-red);
-}
-
-@media (max-width: 900px) {
-  html {
-    font-size: 8px;
-  }
-}
-@media (max-width: 600px) {
-  html {
-    font-size: 6px;
-  }
-}
-@media (max-width: 450px) {
-  html {
-    font-size: 4px;
-  }
+.container .languages .flag {
+  display: inline-block;
+  margin-top: 3rem;
+  padding-right: 1.5rem;
 }
