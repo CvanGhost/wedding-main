@@ -8,4 +8,4 @@ function greetPerson () {
   select.textContent = name;
 }
 
-setInterval(greetPerson, 3000)
+setInterval(greetPerson, 4000)
