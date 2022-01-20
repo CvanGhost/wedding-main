@@ -40,10 +40,10 @@ body {
 .selection-wrapper .header {
   color: var(--white);
   text-align: center;
-  font-size: 2.6rem;
-  letter-spacing: 3px;
+  font-size: 2.2rem;
+  letter-spacing: 10px;
   font-weight: 500;
-  word-spacing: 4px;
+  word-spacing: 6px;
   margin-bottom: 8rem;
   text-transform: uppercase;
 }
@@ -66,11 +66,18 @@ body {
   margin-top: 15px;
   text-align: center;
 }
+#changeText {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+.hide {
+    opacity: 0 !important;
+}
+
 .header {
   animation-timing-function: ease-in;
   animation-name: fade;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-duration: 3s;
 }
 @keyframes fade {
   0%, 100% {opacity: 0;}

@@ -1,11 +1,16 @@
-const names = ['Select language','Vyber jazyk','Elige idioma']
+var text = ["select language", "vyber jazyk", "elige idioma"];
+var counter = 0;
+var elem = document.getElementById("changeText");
+setInterval(change, 3000);
 
-
-function greetPerson () {
-  let name = names.shift()
-  names.push(name)
-  const select = document.querySelector('.header');
-  select.textContent = name;
+function change() {
+    elem.classList.add('hide');
+    setTimeout(function () {
+        elem.innerHTML = text[counter];
+        elem.classList.remove('hide');
+        counter++;
+        if (counter >= text.length) {
+            counter = 0;
+        }
+    }, 1500);
 }
-
-setInterval(greetPerson, 4000)
